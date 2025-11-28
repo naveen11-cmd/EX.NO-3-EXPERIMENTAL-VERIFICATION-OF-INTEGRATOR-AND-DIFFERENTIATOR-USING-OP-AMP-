@@ -36,22 +36,19 @@ T ≥ Rf Cf
 The integrator is most commonly used in analog computers and ADC and signal-wave shaping circuits.
 CIRCUIT DIAGRAM
 ## CIRCUIT DIAGRAM
-![WhatsApp Image 2025-11-27 at 19 05 07_f3faeb28](https://github.com/user-attachments/assets/b6a32416-7bd4-4e60-b31f-92641de394b9)
+![WhatsApp Image 2025-11-28 at 14 19 39_30830dd0](https://github.com/user-attachments/assets/40e0672f-7f24-41c3-aa07-a0f09fcfe4fe)
 
 
 
 ## MODEL GRAPH
-<img width="556" height="380" alt="image" src="https://github.com/user-attachments/assets/caa7461c-69f7-4636-8e31-eea6db6efbb5" />
+![WhatsApp Image 2025-11-28 at 14 20 25_803c7efe](https://github.com/user-attachments/assets/c94522d6-c03a-4b84-af34-f1ccbe1f229e)
 
-<img width="847" height="553" alt="image" src="https://github.com/user-attachments/assets/d8d3e586-8e58-47ba-baae-2794c7955d51" />
+![WhatsApp Image 2025-11-28 at 14 20 56_c8e3428a](https://github.com/user-attachments/assets/42985988-12ad-441c-a352-d085134eab80)
 
 ---
 
 ## DESIGN
-
-To obtain the output of an Integrator circuit with component values R1Cf = 0.1ms , Rf = 10 R1 and Cf = 0.01 µF and also if 1 V peak square wave at 1000Hz is applied as input.
-We know the frequency at which the gain is 0 dB, fb = 1 / (2π R1 Cf) Therefore fb = 	 Since fb = 10 fa , and also the gain limiting frequency fa = 1 / (2π Rf Cf)
-We get , R1 =	and hence Rf = 	
+![WhatsApp Image 2025-11-28 at 14 25 21_078616a1](https://github.com/user-attachments/assets/f9870881-7b17-45f0-a058-c1505d29821b)
 
 ## PROCEDURE
 
@@ -62,7 +59,7 @@ We get , R1 =	and hence Rf =
 
 
 ## TABULATION
-![WhatsApp Image 2025-11-27 at 19 05 07_d5068ffb](https://github.com/user-attachments/assets/026d9569-8c28-46c2-ad86-146a56f3f735)
+![WhatsApp Image 2025-11-28 at 14 20 07_75e7f887](https://github.com/user-attachments/assets/01a3fe1c-8c95-48a0-b7ba-8ef644eae911)
 
 		
 
@@ -109,7 +106,7 @@ Here the negative sign indicates that the output voltage is 180 0 out of phase w
 The differentiator is most commonly used in wave shaping circuits to detect high frequency components in an input signal and also as a rate–of–change detector in FM modulators.
 
 ## CIRCUIT DIAGRAM
-![WhatsApp Image 2025-11-27 at 19 05 06_b19914ce](https://github.com/user-attachments/assets/e53a842a-174a-409c-a90a-1623408fb466)
+![WhatsApp Image 2025-11-28 at 14 21 16_e6e428f8](https://github.com/user-attachments/assets/bcaade5f-6d3e-438a-b5d9-db51837a93cf)
 
 
 
@@ -117,28 +114,21 @@ The differentiator is most commonly used in wave shaping circuits to detect high
 
 (i)	 SINE WAVE INPUT
 
-<img width="687" height="479" alt="image" src="https://github.com/user-attachments/assets/c89226c0-c2bb-4544-b355-27fc0d923f1a" />
----
+![WhatsApp Image 2025-11-28 at 14 21 36_3add2551](https://github.com/user-attachments/assets/cc0e833d-f7c2-4f5c-9cf7-7bad9e351ac6)
+
 
 AND
 
 (ii) SQUARE WAVE INPUT
 
-<img width="758" height="447" alt="image" src="https://github.com/user-attachments/assets/cda33b00-c40c-490f-a9bd-e06107119c25" />
+![WhatsApp Image 2025-11-28 at 14 22 16_8e110089](https://github.com/user-attachments/assets/438ee417-4630-4104-9785-5455040ba0e5)
 
 
 ---
 
 ## DESIGN
 
-Design an op-amp differentiator that will differentiate an input signal with fmax = 100HZ Select fa = fmax = 100 HZ = 1 / 2πRFC1
-Let C1 = 0.1μF
-Then RF = 1 / 2π(102)(10-7)
-= 15.9KΩ
-Now choose fb = 10fa = 1 / 2πR1C1 Therefore, R1 = 1 / 2π(103)(10-7)
-= 1.59KΩ Since RFCF = R1C1
-We get, CF = (1.59*103*10-7) / 15.9*103
-= 0.01μF
+![WhatsApp Image 2025-11-28 at 14 29 08_d8a96f84](https://github.com/user-attachments/assets/bb4607c4-c3b0-4313-bee2-9f0064191b39)
 
 
 ## PROCEDURE
@@ -149,7 +139,7 @@ We get, CF = (1.59*103*10-7) / 15.9*103
 4.	The output voltage is obtained in the CRO and the input and output voltage waveforms are plotted in a graph sheet.
 
  ## TABULATION
-![WhatsApp Image 2025-11-27 at 19 05 06_5eee9916](https://github.com/user-attachments/assets/fa59e7ec-3681-470a-b28c-e12a2d4b409e)
+![WhatsApp Image 2025-11-28 at 14 23 02_16b6d77c](https://github.com/user-attachments/assets/d4f07b97-dc1a-4669-9062-589fdf34f2ad)
 
 		
 
@@ -161,6 +151,7 @@ We get, CF = (1.59*103*10-7) / 15.9*103
 RESULT:
 Thus an Integrator and Differentiator using op-amp are designed and their performance was successfully tested using op-amp IC 741.
 ---
+![WhatsApp Image 2025-11-28 at 14 30 15_f70bcb18](https://github.com/user-attachments/assets/ded80cca-b909-441f-9700-a5ddceb6141f)
 
 
 
